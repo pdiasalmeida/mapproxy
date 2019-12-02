@@ -482,6 +482,7 @@ mapproxy_yaml_spec = {
                     'featureinfo_format': str(),
                     'featureinfo_xslt': str(),
                     'featureinfo_out_format': str(),
+                    'featureinfo_fwd_params': [{anything(): anything()}]
                 },
                 'image': combined(image_opts, {
                     'opacity':number(),
